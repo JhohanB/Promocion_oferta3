@@ -17,7 +17,7 @@ const programas = [
     beneficios: ["Aumenta tu valor profesional en el sector agropecuario", "Aprende prácticas modernas y sostenibles", "Te prepara para emprender o crecer en tu finca o empresa"],
     video: "KePwbjp3BK4",
     imagen: "img/Ganaderia_sostenible_1.jpg",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=gesti%C3%B3n%20ganaderos"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534329"
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const programas = [
     beneficios: ["Desarrolla visión de negocio y liderazgo", "Conecta producción, costos y mercadeo", "Abre puertas a crecer en empresas y emprendimientos pecuarios"],
     video: "YRBCQQvv8yI",
     imagen: "img/Empresas_pecuarias_1.png",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=empresas%20pecuarias"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534347"
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const programas = [
     beneficios: ["Te convierte en un guía con perfil profesional y seguro", "Potencia tu creatividad para diseñar experiencias únicas", "Te abre camino en turismo, recreación y servicio al visitante"],
     video: "tKWXB9fPyBI",
     imagen: "img/Guianza_1.jpg",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=guianza%20turistica"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534431"
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const programas = [
     beneficios: ["Garantiza calidad, inocuidad y confianza en tus productos", "Te prepara para trabajar en fábricas y laboratorios", "Aumenta tu perfil para el sector agroindustrial"],
     video: "QyoNrqJ6dQ8",
     imagen: "img/Control_alimentos_1.jpg",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=control%20calidad%20alimentos"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534463"
   },
   {
     id: 5,
@@ -106,7 +106,7 @@ const programas = [
     ],
     video: "",
     imagen: "img/cafe_1.jpg",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3538965"
   },
   {
     id: 6,
@@ -135,7 +135,7 @@ const programas = [
      ],
     video: "hW2leBeHAiQ",
     imagen: "img/produccion_pecuaria_1.jpg",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534734"
   },
   {
     id: 7,
@@ -164,7 +164,7 @@ const programas = [
      ],
     video: "hW2leBeHAiQ",
     imagen: "img/produccion_pecuaria_2.jpg",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534743"
   },
   {
     id: 8,
@@ -184,7 +184,7 @@ const programas = [
     beneficios: ["Aprende a crear soluciones digitales que cambian negocios", "Desarrolla lógica, creatividad y habilidades del futuro", "Te posiciona para trabajar en tecnología, emprendimiento y servicios digitales"],
     video: "h6sZQgS_w_s",
     imagen: "img/Programacion_1.png",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=programaci%C3%B3n%20software"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534769"
   },
   {
     id: 9,
@@ -213,7 +213,7 @@ const programas = [
      ],
     video: "",
     imagen: "img/catastro_1.webp",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534804"
   },
   {
     id: 10,
@@ -233,7 +233,7 @@ const programas = [
     beneficios: ["Te enseña a producir panadería con calidad y sabor", "Desarrolla habilidades prácticas para trabajo y emprendimiento", "Te ayuda a crear una microempresa rentable y con identidad"],
     video: "Od0AHdnSPgE",
     imagen: "img/Panaderia_1.jpg",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=panaderia"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3534862"
   },
   {
     id: 11,
@@ -262,7 +262,7 @@ const programas = [
      ],
     video: "",
     imagen: "img/apicola_1.jpg",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3538988"
   },
   {
     id: 12,
@@ -282,7 +282,7 @@ const programas = [
     beneficios: ["Te prepara para producir con eficiencia y responsabilidad", "Conecta la acuicultura con emprendimiento sostenible", "Abre oportunidades en agroindustria, pesca y desarrollo rural"],
     video: "hW2leBeHAiQ",
     imagen: "img/Piscicultura_1.jpg",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=piscicola"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3536253"
   },
   {
     id: 13,
@@ -302,7 +302,7 @@ const programas = [
     beneficios: ["Te da una base fuerte para entrar al sector gastronómico", "Potencia tu creatividad, orden y servicio al cliente", "Te ayuda a crear oportunidades de empleo o emprendimiento culinario"],
     video: "Avi6vnInjMw",
     imagen: "img/Cocina_1.jpg",
-    inscripcion: "https://betowa.sena.edu.co/oferta?search=cocina"
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3535008"
   },
   {
     id: 14,
@@ -331,7 +331,7 @@ const programas = [
      ],
     video: "",
     imagen: "img/apoyo_cliente_1.jpg",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3535539"
   },
   {
     id: 15,
@@ -360,7 +360,7 @@ const programas = [
      ],
     video: "r3piJ-elDCA",
     imagen: "img/flores_1.jpg",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3535561"
   },
   {
     id: 16,
@@ -389,7 +389,7 @@ const programas = [
      ],
     video: "R4GItPAlVec",
     imagen: "img/seguridad_alimentaria_1.webp",
-    inscripcion: ""
+    inscripcion: "https://betowa.sena.edu.co/oferta?search=3535553"
   },
   {
     id: 17,
@@ -418,7 +418,7 @@ const programas = [
      ],
     video: "R4GItPAlVec",
     imagen: "img/seguridad_alimentaria_2.jpg",
-    inscripcion: ""
+    inscripcion:"https://betowa.sena.edu.co/oferta?search=3535578"
   },
 ];
 
