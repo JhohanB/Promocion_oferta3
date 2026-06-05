@@ -280,7 +280,7 @@ const programas = [
     aprende: ["Cómo manejar piscinas, peces y producción con responsabilidad", "Cómo alimentar, vigilar y proteger la sanidad del cultivo", "Cómo producir de forma sostenible y rentable", "Cómo usar control técnico y herramientas para una operación más profesional"],
     homologa: "Puede homologarse en formación técnica agrícola, acuicultura y desarrollo rural.",
     beneficios: ["Te prepara para producir con eficiencia y responsabilidad", "Conecta la acuicultura con emprendimiento sostenible", "Abre oportunidades en agroindustria, pesca y desarrollo rural"],
-    video: "hW2leBeHAiQ",
+    video: "",
     imagen: "img/Piscicultura_1.jpg",
     inscripcion: "https://betowa.sena.edu.co/oferta?search=3536253"
   },
