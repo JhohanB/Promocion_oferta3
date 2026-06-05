@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              sena: { DEFAULT: '#39A900', dark: '#2d8500', light: '#e8f7e8' }
+            },
+            spacing: {
+              '2': '8px', '4': '16px', '6': '24px', '8': '32px',
+              '10': '40px', '12': '48px', '14': '56px', '16': '64px',
+              '20': '80px', '24': '96px'
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo_sena.png" type="image/x-icon">
+    <title>CASA - III Oferta SENA 2026</title>
+</head>
+<body class="bg-[#f5f7f5] font-sans text-gray-800 antialiased leading-relaxed">
+
+  <!-- ===== HERO – VIDEO DINÁMICO ===== -->
+  <section class="relative overflow-hidden h-[70vh] min-h-[480px] flex items-center justify-center text-center text-white">
+    <!-- Video background -->
+    <div class="absolute inset-0 z-0 bg-gray-900">
+      <iframe class="video-bg-iframe"
+        src="https://www.youtube.com/embed/viQmPm09GiM?autoplay=1&mute=1&controls=0&loop=1&playlist=viQmPm09GiM&rel=0&modestbranding=1&showinfo=0&vq=hd1080"
+        allow="autoplay; encrypted-media">
+      </iframe>
+    </div>
+    <!-- Gradient overlay sutil -->
+    <div class="absolute inset-0 z-[1] bg-gradient-to-b from-black/10 via-transparent to-black/20"></div>
+
+    <!-- Content -->
+    <div class="relative z-[2] max-w-2xl px-6 sm:px-8 py-6 sm:py-8 mx-4 bg-black/40 backdrop-blur-sm rounded-2xl animate-fade-in">
+      <img src="img/lembo_4.jpeg" alt="Logo SENA"
+           class="w-48 sm:w-64 mx-auto mb-6 sm:mb-8 drop-shadow-2xl">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-3 drop-shadow-lg">
+        III OFERTA 2026
+      </h1>
+      <p class="text-base sm:text-lg font-semibold text-[#39A900] mb-2 drop-shadow-md">
+        INSCRIPCIONES DEL 5 DE JUNIO AL 9 DE JUNIO
+      </p>
+      <p class="text-sm sm:text-base max-w-xl mx-auto text-gray-100 drop-shadow-md">
+        Explora los programas que estarán en Pereira y descubre qué aprenderás,
+        dónde puedes crecer y cómo seguir tu formación.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== BENEFICIOS ===== -->
+  <section class="py-12 sm:py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-10 sm:mb-12 tracking-tight">
+        ¿Por qué estudiar con nosotros?
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <!-- Gratuito -->
+        <div class="bg-white rounded-xl p-6 sm:p-8 shadow-md border-t-4 border-sena transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+          <div class="w-12 h-12 rounded-xl bg-sena-light flex items-center justify-center mb-4 text-2xl">🎓</div>
+          <h3 class="text-xl font-bold text-sena mb-2">Gratuito</h3>
+          <p class="text-gray-500 text-sm">Formación sin costo para impulsar tu futuro profesional.</p>
+        </div>
+        <!-- Empleabilidad -->
+        <div class="bg-white rounded-xl p-6 sm:p-8 shadow-md border-t-4 border-sena transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+          <div class="w-12 h-12 rounded-xl bg-sena-light flex items-center justify-center mb-4 text-2xl">💼</div>
+          <h3 class="text-xl font-bold text-sena mb-2">Empleabilidad</h3>
+          <p class="text-gray-500 text-sm">Programas enfocados al mercado laboral actual.</p>
+        </div>
+        <!-- Emprendimiento -->
+        <div class="bg-white rounded-xl p-6 sm:p-8 shadow-md border-t-4 border-sena transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+          <div class="w-12 h-12 rounded-xl bg-sena-light flex items-center justify-center mb-4 text-2xl">🚀</div>
+          <h3 class="text-xl font-bold text-sena mb-2">Emprendimiento</h3>
+          <p class="text-gray-500 text-sm">Crea tu propio negocio con acompañamiento formativo.</p>
+        </div>
+        <!-- Homologación -->
+        <div class="bg-white rounded-xl p-6 sm:p-8 shadow-md border-t-4 border-sena transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">
+          <div class="w-12 h-12 rounded-xl bg-sena-light flex items-center justify-center mb-4 text-2xl">📜</div>
+          <h3 class="text-xl font-bold text-sena mb-2">Homologación</h3>
+          <p class="text-gray-500 text-sm">Continúa tu formación profesional universitaria.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMAS – TARJETAS EXPANDIBLES ===== -->
+  <section class="py-12 sm:py-16 px-4 bg-gradient-to-b from-white to-[#eef7ec]">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-3 tracking-tight">
+        Programas Centro Atención Sector Agropecuario
+      </h2>
+      <p class="text-center text-gray-500 max-w-2xl mx-auto mb-10 sm:mb-12 text-sm sm:text-base">
+        Haz clic en "Ver más" para conocer todos los detalles del programa.
+      </p>
+      <div id="programas-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <!-- Se renderiza desde script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA INTERACTIVA ===== -->
+  <section class="py-12 sm:py-16 px-4">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-3 tracking-tight">
+        Conoce nuestra sede El Lembo
+      </h2>
+      <p class="text-center text-gray-500 max-w-xl mx-auto mb-10 sm:mb-12 text-sm sm:text-base">
+        Espacios diseñados para tu formación profesional con estándares de calidad.
+      </p>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_1.jpeg" alt="Ganadería sostenible" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_2.jpeg" alt="Empresas pecuarias" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_3.jpeg" alt="Guianza turística" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_4.jpeg" alt="Programación" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_5.jpeg" alt="Control de alimentos" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_6.jpeg" alt="Cocina" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+          <img src="img/lembo_7.jpeg" alt="Panadería" class="w-full h-40 sm:h-48 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-gray-900 text-white text-center py-10 sm:py-12 px-4 border-t-4 border-sena">
+    <h3 class="text-xl sm:text-2xl font-bold mb-2">III Oferta de Formación SENA 2026</h3>
+    <p class="text-gray-400 text-sm">Inscripciones abiertas · Pereira</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
